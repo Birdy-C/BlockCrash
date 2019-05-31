@@ -10,7 +10,7 @@ int main() {
     //std::cout << "Hello, World!" << std::endl;
     int N;
     // histroy record
-    int historynum;
+    int historynum = 5;
     vector<Board> que(historynum);
     int T = 20;
     int sum = 0;
