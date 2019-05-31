@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BlockCrash_autotest.dir/main.cpp.o"
+  "CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o"
   "CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o"
   "CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o"
   "BlockCrash_autotest.pdb"

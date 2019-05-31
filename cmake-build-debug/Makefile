@@ -202,7 +202,6 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -212,7 +211,6 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -222,9 +220,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+maintest.o: maintest.cpp.o
+
+.PHONY : maintest.o
+
+# target to build an object file
+maintest.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o
+.PHONY : maintest.cpp.o
+
+maintest.i: maintest.cpp.i
+
+.PHONY : maintest.i
+
+# target to preprocess a source file
+maintest.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.i
+.PHONY : maintest.cpp.i
+
+maintest.s: maintest.cpp.s
+
+.PHONY : maintest.s
+
+# target to generate assembly for a file
+maintest.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.s
+.PHONY : maintest.cpp.s
 
 # Help Target
 help:
@@ -245,6 +269,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maintest.o"
+	@echo "... maintest.i"
+	@echo "... maintest.s"
 .PHONY : help
 
 

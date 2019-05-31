@@ -12,6 +12,12 @@ vector
 bitset
 -
 
+/Users/birdy/CLionProjects/BlockCrash/Board.cpp
+iostream
+-
+Board.h
+/Users/birdy/CLionProjects/BlockCrash/Board.h
+
 /Users/birdy/CLionProjects/BlockCrash/Board.h
 vector
 -
@@ -19,14 +25,4 @@ bitset
 -
 BlockGenerate.h
 /Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
-
-/Users/birdy/CLionProjects/BlockCrash/main.cpp
-iostream
--
-queue
--
-BlockGenerate.h
-/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
-Board.h
-/Users/birdy/CLionProjects/BlockCrash/Board.h
 

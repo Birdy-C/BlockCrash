@@ -11,13 +11,20 @@
 
 using namespace std;
 
+const auto boardsize = 10;
 class Board {
+//private:
 public:
+    int calBlock();
+    int calBorder();
+public:
+    Board();
     int score = 0; // the score for the game
     int calculateAIscore(); // the score for AI
     void update(); // deleted the filled rank/row
-    vector<bitset<10>> board;
+    vector<bitset<boardsize>> board;
     bool addBlock(class Block block);
+    void show();
 
 
 

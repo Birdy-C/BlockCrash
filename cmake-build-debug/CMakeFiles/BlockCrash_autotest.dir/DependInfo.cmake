@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o"
   "/Users/birdy/CLionProjects/BlockCrash/Board.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o"
-  "/Users/birdy/CLionProjects/BlockCrash/main.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest.dir/main.cpp.o"
+  "/Users/birdy/CLionProjects/BlockCrash/maintest.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -135,8 +135,10 @@
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/main.cpp">
-			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
+		</Unit>
+		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/maintest.cpp">
+			<Option target="BlockCrash_autotest"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

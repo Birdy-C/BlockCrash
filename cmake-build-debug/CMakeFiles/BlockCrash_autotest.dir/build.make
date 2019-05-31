@@ -57,18 +57,18 @@ include CMakeFiles/BlockCrash_autotest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BlockCrash_autotest.dir/flags.make
 
-CMakeFiles/BlockCrash_autotest.dir/main.cpp.o: CMakeFiles/BlockCrash_autotest.dir/flags.make
-CMakeFiles/BlockCrash_autotest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockCrash_autotest.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash_autotest.dir/main.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/main.cpp
+CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o: CMakeFiles/BlockCrash_autotest.dir/flags.make
+CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o: ../maintest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/maintest.cpp
 
-CMakeFiles/BlockCrash_autotest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockCrash_autotest.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/birdy/CLionProjects/BlockCrash/main.cpp > CMakeFiles/BlockCrash_autotest.dir/main.cpp.i
+CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/birdy/CLionProjects/BlockCrash/maintest.cpp > CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.i
 
-CMakeFiles/BlockCrash_autotest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockCrash_autotest.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/birdy/CLionProjects/BlockCrash/main.cpp -o CMakeFiles/BlockCrash_autotest.dir/main.cpp.s
+CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/birdy/CLionProjects/BlockCrash/maintest.cpp -o CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.s
 
 CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o: CMakeFiles/BlockCrash_autotest.dir/flags.make
 CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o: ../BlockGenerate.cpp
@@ -98,14 +98,14 @@ CMakeFiles/BlockCrash_autotest.dir/Board.cpp.s: cmake_force
 
 # Object files for target BlockCrash_autotest
 BlockCrash_autotest_OBJECTS = \
-"CMakeFiles/BlockCrash_autotest.dir/main.cpp.o" \
+"CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o" \
 "CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o" \
 "CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o"
 
 # External object files for target BlockCrash_autotest
 BlockCrash_autotest_EXTERNAL_OBJECTS =
 
-BlockCrash_autotest: CMakeFiles/BlockCrash_autotest.dir/main.cpp.o
+BlockCrash_autotest: CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.o
 BlockCrash_autotest: CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o
 BlockCrash_autotest: CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o
 BlockCrash_autotest: CMakeFiles/BlockCrash_autotest.dir/build.make
