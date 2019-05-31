@@ -20,6 +20,12 @@ BlockCrash_BINARY_DIR:STATIC=/Users/birdy/CLionProjects/BlockCrash/cmake-build-d
 //Value Computed by CMake
 BlockCrash_SOURCE_DIR:STATIC=/Users/birdy/CLionProjects/BlockCrash
 
+//Value Computed by CMake
+BlockCrash_autotest_BINARY_DIR:STATIC=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug
+
+//Value Computed by CMake
+BlockCrash_autotest_SOURCE_DIR:STATIC=/Users/birdy/CLionProjects/BlockCrash
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
@@ -157,7 +163,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BlockCrash
+CMAKE_PROJECT_NAME:STATIC=BlockCrash_autotest
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib

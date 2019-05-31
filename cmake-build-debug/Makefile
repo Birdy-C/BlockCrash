@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BlockCrash_autotest
+
+# Build rule for target.
+BlockCrash_autotest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockCrash_autotest
+.PHONY : BlockCrash_autotest
+
+# fast build rule for target.
+BlockCrash_autotest/fast:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/build
+.PHONY : BlockCrash_autotest/fast
+
+#=============================================================================
 # Target rules for targets named BlockCrash
 
 # Build rule for target.
@@ -123,12 +136,73 @@ BlockCrash/fast:
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/build
 .PHONY : BlockCrash/fast
 
+BlockGenerate.o: BlockGenerate.cpp.o
+
+.PHONY : BlockGenerate.o
+
+# target to build an object file
+BlockGenerate.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o
+.PHONY : BlockGenerate.cpp.o
+
+BlockGenerate.i: BlockGenerate.cpp.i
+
+.PHONY : BlockGenerate.i
+
+# target to preprocess a source file
+BlockGenerate.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.i
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.i
+.PHONY : BlockGenerate.cpp.i
+
+BlockGenerate.s: BlockGenerate.cpp.s
+
+.PHONY : BlockGenerate.s
+
+# target to generate assembly for a file
+BlockGenerate.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.s
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.s
+.PHONY : BlockGenerate.cpp.s
+
+Board.o: Board.cpp.o
+
+.PHONY : Board.o
+
+# target to build an object file
+Board.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.o
+.PHONY : Board.cpp.o
+
+Board.i: Board.cpp.i
+
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.i
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.s
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -138,6 +212,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -147,6 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -158,7 +234,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... BlockCrash_autotest"
 	@echo "... BlockCrash"
+	@echo "... BlockGenerate.o"
+	@echo "... BlockGenerate.i"
+	@echo "... BlockGenerate.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

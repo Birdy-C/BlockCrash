@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o"
+  "/Users/birdy/CLionProjects/BlockCrash/Board.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash.dir/Board.cpp.o"
   "/Users/birdy/CLionProjects/BlockCrash/main.cpp" "/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

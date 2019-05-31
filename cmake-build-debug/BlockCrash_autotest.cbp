@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="BlockCrash"/>
+		<Option title="BlockCrash_autotest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -32,6 +32,46 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlockCrash_autotest">
+				<Option output="/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autotest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlockCrash_autotest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlockCrash_autotest/fast">
+				<Option output="/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autotest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlockCrash_autotest/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -78,22 +118,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/Block.h">
-			<Option target="BlockCrash"/>
-		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.cpp">
+			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h">
+			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/Board.cpp">
+			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/Board.h">
+			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/main.cpp">
+			<Option target="BlockCrash_autotest"/>
 			<Option target="BlockCrash"/>
 		</Unit>
 		<Unit filename="/Users/birdy/CLionProjects/BlockCrash/CMakeLists.txt">
