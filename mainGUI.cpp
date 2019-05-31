@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue>
 #include <QtWidgets/QApplication>
-#include "ui/Widget.h"
+#include "Widget.h"
 #include "BlockGenerate.h"
 #include "Board.h"
 
@@ -16,11 +16,9 @@ int main(int argc, char* argv[]) {
     vector<Board> que(historynum);
     int index = 0;
 	//
-	
 	QApplication a(argc, argv);
-	
-    Widget w;
-    w.setGeometry(500, 200, 320, 240);
-    w.show();
-    return a.exec();
+	MainWindow w;
+	w.show();
+
+	return a.exec();
 }

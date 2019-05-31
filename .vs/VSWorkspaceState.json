@@ -1,8 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\ui"
+    ""
   ],
-  "SelectedNode": "\\ui\\widget.ui",
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
