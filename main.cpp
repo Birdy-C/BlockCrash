@@ -11,7 +11,7 @@ int main() {
     //std::cout << "Hello, World!" << std::endl;
     int N;
     // histroy record
-    int historynum;
+    int historynum = 5;
     vector<Board> que(historynum);
     int index = 0;
     while(1){

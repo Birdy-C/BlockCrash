@@ -3,7 +3,7 @@
 //
 
 #include "BlockGenerate.h"
-
+#include <assert.h>
 int numblock(vector<bitset<10>> p){
     int sum = 0;
     for(auto tp : p){
