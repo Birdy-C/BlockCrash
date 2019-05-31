@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
 project(BlockCrash)
 project(BlockCrash_autotest)
+project(BlockCrash_GUI)
 
 set(CMAKE_CXX_STANDARD 14)
-
+find_package(Qt5Widgets REQUIRED)
 add_executable(BlockCrash main.cpp BlockGenerate.cpp BlockGenerate.h Board.cpp Board.h)
 add_executable(BlockCrash_autotest maintest.cpp BlockGenerate.cpp BlockGenerate.h Board.cpp Board.h)
+add_executable(BlockCrash_GUI mainGUI.cpp BlockGenerate.cpp BlockGenerate.h Board.cpp Board.h)
+target_link_libraries(BlockCrash_GUI Qt5::Widgets)
