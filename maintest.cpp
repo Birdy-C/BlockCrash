@@ -12,7 +12,7 @@ int main() {
     // histroy record
     int historynum = 5;
     vector<Board> que(historynum);
-    int T = 20;
+    int T = 50;
     int sum = 0;
     for(int i = 0; i < T; i ++){
         class Board myboard;

@@ -17,6 +17,7 @@ class Board {
 public:
     int calBlock();
     int calBorder();
+    int x = 0, y = 0;
 public:
     Board();
     int score = 0; // the score for the game

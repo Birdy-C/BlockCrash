@@ -31,19 +31,20 @@ void MainWindow::setWindow() {
 
 	QImage tmp(400, 400, QImage::Format_RGB888 );
 	QPainter painter(&tmp);
-    QPen paintpen(Qt::white), paintpen2(Qt::gray), paintpen3(Qt::black);
-	paintpen.setWidth(10);
+    QPen paintpen(QColor(65, 105, 255));
+	paintpen.setWidth(1);
 	QRect rect(0,0,400,400);
-    painter.fillRect(rect, Qt::white);
+    painter.fillRect(rect, QColor(240, 248, 255));
 //	painter.fillRect(0, 0, 400, 400);
+
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
-			painter.setPen(paintpen2);
+			//painter.setPen(paintpen2);
 			if (myboard.board[j][i]) {
 				QRect rectt(360 - 40 * i, 40 * j, 40, 40);
-				painter.fillRect(rectt, Qt::gray);
+				painter.fillRect(rectt, QColor(135,206,250));
 			}
-			painter.setPen(paintpen3);
+			painter.setPen(paintpen);
 			painter.drawRect(360 - 40 * i, 40 * j, 39, 39);
 			
 		}
@@ -65,10 +66,28 @@ void MainWindow::setN(int N) {
     que[index] = myboard;
     index ++;
     index %= historynum;
-	bool test = myboard.addBlock(generateBlock.getblock(N - 1));
+    auto block = generateBlock.getblock(N - 1);
+	bool test = myboard.addBlock(block);
 	setWindow();
 	if (!test)
 		ui->label_4->setText("Game over! \n Final Score" + QString::number(myboard.score));
+	else{
+        QImage tmp(ui -> label_2->pixmap()->toImage());
+        QPainter painter(&tmp);
+        QPen paintpen(QColor(147, 112, 219));
+        paintpen.setWidth(3);
+        painter.setPen(paintpen);
+	    int x = myboard.x, y = myboard.y;
+	    for(int t = 0; t < block.block.size(); t ++){
+	        for(int m = 0; m < 10; m ++){
+	            if((block.block[t] << y)[m]){
+                    painter.drawRect(360 - 40 * (m), 40 * (t + x), 39, 39);
+	            }
+
+	        }
+	    }
+        ui -> label_2 -> setPixmap(QPixmap::fromImage(tmp));
+	}
 
 }
 

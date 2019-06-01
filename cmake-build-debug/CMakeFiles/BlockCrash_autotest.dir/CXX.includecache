@@ -6,35 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.cpp
-BlockGenerate.h
-/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
-assert.h
--
-
 /Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
 vector
 -
 bitset
 -
 
-/Users/birdy/CLionProjects/BlockCrash/Board.h
-vector
--
-bitset
--
-BlockGenerate.h
-/Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
-
-/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autotest_autogen/mocs_compilation.cpp
-
-/Users/birdy/CLionProjects/BlockCrash/maintest.cpp
+/Users/birdy/CLionProjects/BlockCrash/Board.cpp
 iostream
 -
-queue
+Board.h
+/Users/birdy/CLionProjects/BlockCrash/Board.h
+
+/Users/birdy/CLionProjects/BlockCrash/Board.h
+vector
+-
+bitset
 -
 BlockGenerate.h
 /Users/birdy/CLionProjects/BlockCrash/BlockGenerate.h
-Board.h
-/Users/birdy/CLionProjects/BlockCrash/Board.h
 

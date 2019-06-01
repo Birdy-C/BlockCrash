@@ -21,15 +21,19 @@ bool Board::addBlock(class Block block) {
             }
             if(!possible) continue;
             temp.update();
-            if(temp.calculateAIscore() > maxAIscore){
-                maxAIscore = temp.calculateAIscore();
+            int cal = temp.calculateAIscore();
+            if(cal > maxAIscore){
+                maxAIscore = cal;
                 maxboard = temp;
+                maxboard.x = i;
+                maxboard.y = j;
             }
         }
     }
 
     if(maxboard.board == this->board) return false;
     *this = maxboard;
+
     score += block.score;
     return true;
 }
@@ -56,15 +60,15 @@ void Board::update() {
         if(set){
             for(int j = 0; j < boardsize; j ++){
                 board_t[j][i] = false;
-                score += 10;
             }
+            score += 10;
         }
     }
     board = board_t;
 }
 
 int Board::calculateAIscore() {
-    return -calBorder()  - calBlock() * 2;
+    return -calBorder()  - 2 * calBlock();
 }
 
 Board::Board():
