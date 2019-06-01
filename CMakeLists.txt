@@ -16,8 +16,14 @@ set (CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.12.3/lib/cmake")
 # I don't know how to link the dll file so I copied it to the system file
 #qt5_add_resources(RESOURCES res.qrc)
 
-
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+#if(APPLE)
+#     set(CMAKE_EXE_LINKER_FLAGS "-static-libstdc++")
+#else()
+#     set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+#endif()
+
 find_package(Qt5Widgets REQUIRED)
 add_executable(BlockCrash main.cpp BlockGenerate.cpp BlockGenerate.h Board.cpp Board.h)
 add_executable(BlockCrash_autotest maintest.cpp BlockGenerate.cpp BlockGenerate.h Board.cpp Board.h)
