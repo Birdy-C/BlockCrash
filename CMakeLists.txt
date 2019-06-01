@@ -11,8 +11,11 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_AUTORCC ON) # if you have any .qrc files
 
+if(APPLE)
 set (CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.12.3/lib/cmake")
-# set (CMAKE_PREFIX_PATH "G:\\Qt\\Qt5.6.1\\5.6\\msvc2015_64\\lib\\cmake")
+else()
+set (CMAKE_PREFIX_PATH "G:\\Qt\\Qt5.6.1\\5.6\\msvc2015_64\\lib\\cmake")
+endif()
 # I don't know how to link the dll file so I copied it to the system file
 #qt5_add_resources(RESOURCES res.qrc)
 

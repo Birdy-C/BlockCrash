@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{60E633BA-883F-3CA2-9667-5F4386A219E9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>BlockCrash_autotest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Code3\BlockCrash\cmake-build-release\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BlockCrash_autotest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BlockCrash_autotest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Code3\BlockCrash\cmake-build-release\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BlockCrash_autotest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BlockCrash_autotest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Code3\BlockCrash\cmake-build-release\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BlockCrash_autotest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BlockCrash_autotest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Code3\BlockCrash\cmake-build-release\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BlockCrash_autotest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BlockCrash_autotest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target BlockCrash_autotest</Message>
+      <Command>setlocal
+cd E:\Code3\BlockCrash\cmake-build-release
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"G:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/BlockCrash_autotest_autogen.dir/AutogenInfo.cmake Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -static-libgcc -static-libstdc++</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code3/BlockCrash/cmake-build-release/Debug/BlockCrash_autotest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code3/BlockCrash/cmake-build-release/Debug/BlockCrash_autotest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target BlockCrash_autotest</Message>
+      <Command>setlocal
+cd E:\Code3\BlockCrash\cmake-build-release
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"G:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/BlockCrash_autotest_autogen.dir/AutogenInfo.cmake Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -static-libgcc -static-libstdc++</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code3/BlockCrash/cmake-build-release/Release/BlockCrash_autotest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code3/BlockCrash/cmake-build-release/Release/BlockCrash_autotest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target BlockCrash_autotest</Message>
+      <Command>setlocal
+cd E:\Code3\BlockCrash\cmake-build-release
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"G:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/BlockCrash_autotest_autogen.dir/AutogenInfo.cmake MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -static-libgcc -static-libstdc++</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code3/BlockCrash/cmake-build-release/MinSizeRel/BlockCrash_autotest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code3/BlockCrash/cmake-build-release/MinSizeRel/BlockCrash_autotest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code3\BlockCrash\cmake-build-release;E:\Code3\BlockCrash;E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target BlockCrash_autotest</Message>
+      <Command>setlocal
+cd E:\Code3\BlockCrash\cmake-build-release
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"G:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/BlockCrash_autotest_autogen.dir/AutogenInfo.cmake RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -static-libgcc -static-libstdc++</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code3/BlockCrash/cmake-build-release/RelWithDebInfo/BlockCrash_autotest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code3/BlockCrash/cmake-build-release/RelWithDebInfo/BlockCrash_autotest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Code3\BlockCrash\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Code3/BlockCrash/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -HE:/Code3/BlockCrash -BE:/Code3/BlockCrash/cmake-build-release --check-stamp-file E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Code3/BlockCrash/CMakeLists.txt;E:\Code3\BlockCrash\CMakeLists.txt;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\feature_tests.cxx;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;E:\Code3\BlockCrash\res.qrc;E:\Code3\BlockCrash\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Code3/BlockCrash/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -HE:/Code3/BlockCrash -BE:/Code3/BlockCrash/cmake-build-release --check-stamp-file E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Code3/BlockCrash/CMakeLists.txt;E:\Code3\BlockCrash\CMakeLists.txt;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\feature_tests.cxx;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;E:\Code3\BlockCrash\res.qrc;E:\Code3\BlockCrash\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Code3/BlockCrash/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -HE:/Code3/BlockCrash -BE:/Code3/BlockCrash/cmake-build-release --check-stamp-file E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Code3/BlockCrash/CMakeLists.txt;E:\Code3\BlockCrash\CMakeLists.txt;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\feature_tests.cxx;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;E:\Code3\BlockCrash\res.qrc;E:\Code3\BlockCrash\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Code3/BlockCrash/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -HE:/Code3/BlockCrash -BE:/Code3/BlockCrash/cmake-build-release --check-stamp-file E:/Code3/BlockCrash/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Code3/BlockCrash/CMakeLists.txt;E:\Code3\BlockCrash\CMakeLists.txt;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\feature_tests.cxx;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\Qt5.6.1\5.6\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;E:\Code3\BlockCrash\res.qrc;E:\Code3\BlockCrash\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Code3\BlockCrash\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Code3\BlockCrash\maintest.cpp" />
+    <ClCompile Include="E:\Code3\BlockCrash\BlockGenerate.cpp" />
+    <ClInclude Include="E:\Code3\BlockCrash\BlockGenerate.h" />
+    <ClCompile Include="E:\Code3\BlockCrash\Board.cpp" />
+    <ClInclude Include="E:\Code3\BlockCrash\Board.h" />
+    <ClCompile Include="E:\Code3\BlockCrash\cmake-build-release\BlockCrash_autotest_autogen\mocs_compilation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Code3\BlockCrash\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{CD818D0B-0BFC-3169-B18A-224E05A2792E}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
