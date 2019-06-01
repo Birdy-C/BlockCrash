@@ -1,4 +1,8 @@
 /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_GUI.dir
 /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest.dir
 /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash.dir
+/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_GUI_autogen.dir
+/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autotest_autogen.dir
+/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles/BlockCrash_autogen.dir

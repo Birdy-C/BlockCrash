@@ -16,6 +16,7 @@ private:
     vector<Board> que;
     int index = 0;
 	void setWindow();
+	void connectslots();
 	
 public:
     explicit MainWindow(QWidget *parent = 0);

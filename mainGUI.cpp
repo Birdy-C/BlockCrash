@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue>
 #include <QtWidgets/QApplication>
-#include "Widget.h"
+#include "widget.h"
 #include "BlockGenerate.h"
 #include "Board.h"
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug -I/Users/birdy/CLionProjects/BlockCrash -I/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autogen/include 
 

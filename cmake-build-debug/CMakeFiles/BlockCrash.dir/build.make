@@ -57,9 +57,22 @@ include CMakeFiles/BlockCrash.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BlockCrash.dir/flags.make
 
+CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o: CMakeFiles/BlockCrash.dir/flags.make
+CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o: BlockCrash_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autogen/mocs_compilation.cpp
+
+CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autogen/mocs_compilation.cpp > CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/BlockCrash_autogen/mocs_compilation.cpp -o CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/BlockCrash.dir/main.cpp.o: CMakeFiles/BlockCrash.dir/flags.make
 CMakeFiles/BlockCrash.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockCrash.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlockCrash.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash.dir/main.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/main.cpp
 
 CMakeFiles/BlockCrash.dir/main.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/BlockCrash.dir/main.cpp.s: cmake_force
 
 CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o: CMakeFiles/BlockCrash.dir/flags.make
 CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o: ../BlockGenerate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/BlockGenerate.cpp
 
 CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.s: cmake_force
 
 CMakeFiles/BlockCrash.dir/Board.cpp.o: CMakeFiles/BlockCrash.dir/flags.make
 CMakeFiles/BlockCrash.dir/Board.cpp.o: ../Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlockCrash.dir/Board.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BlockCrash.dir/Board.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockCrash.dir/Board.cpp.o -c /Users/birdy/CLionProjects/BlockCrash/Board.cpp
 
 CMakeFiles/BlockCrash.dir/Board.cpp.i: cmake_force
@@ -98,6 +111,7 @@ CMakeFiles/BlockCrash.dir/Board.cpp.s: cmake_force
 
 # Object files for target BlockCrash
 BlockCrash_OBJECTS = \
+"CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/BlockCrash.dir/main.cpp.o" \
 "CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o" \
 "CMakeFiles/BlockCrash.dir/Board.cpp.o"
@@ -105,12 +119,13 @@ BlockCrash_OBJECTS = \
 # External object files for target BlockCrash
 BlockCrash_EXTERNAL_OBJECTS =
 
+BlockCrash: CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o
 BlockCrash: CMakeFiles/BlockCrash.dir/main.cpp.o
 BlockCrash: CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o
 BlockCrash: CMakeFiles/BlockCrash.dir/Board.cpp.o
 BlockCrash: CMakeFiles/BlockCrash.dir/build.make
 BlockCrash: CMakeFiles/BlockCrash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BlockCrash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable BlockCrash"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlockCrash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

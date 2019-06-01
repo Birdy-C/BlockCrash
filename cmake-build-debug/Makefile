@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BlockCrash_GUI
+
+# Build rule for target.
+BlockCrash_GUI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockCrash_GUI
+.PHONY : BlockCrash_GUI
+
+# fast build rule for target.
+BlockCrash_GUI/fast:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/build
+.PHONY : BlockCrash_GUI/fast
+
+#=============================================================================
 # Target rules for targets named BlockCrash_autotest
 
 # Build rule for target.
@@ -136,12 +149,160 @@ BlockCrash/fast:
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/build
 .PHONY : BlockCrash/fast
 
+#=============================================================================
+# Target rules for targets named BlockCrash_GUI_autogen
+
+# Build rule for target.
+BlockCrash_GUI_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockCrash_GUI_autogen
+.PHONY : BlockCrash_GUI_autogen
+
+# fast build rule for target.
+BlockCrash_GUI_autogen/fast:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI_autogen.dir/build.make CMakeFiles/BlockCrash_GUI_autogen.dir/build
+.PHONY : BlockCrash_GUI_autogen/fast
+
+#=============================================================================
+# Target rules for targets named BlockCrash_autotest_autogen
+
+# Build rule for target.
+BlockCrash_autotest_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockCrash_autotest_autogen
+.PHONY : BlockCrash_autotest_autogen
+
+# fast build rule for target.
+BlockCrash_autotest_autogen/fast:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest_autogen.dir/build.make CMakeFiles/BlockCrash_autotest_autogen.dir/build
+.PHONY : BlockCrash_autotest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named BlockCrash_autogen
+
+# Build rule for target.
+BlockCrash_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockCrash_autogen
+.PHONY : BlockCrash_autogen
+
+# fast build rule for target.
+BlockCrash_autogen/fast:
+	$(MAKE) -f CMakeFiles/BlockCrash_autogen.dir/build.make CMakeFiles/BlockCrash_autogen.dir/build
+.PHONY : BlockCrash_autogen/fast
+
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.o: BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.o
+
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.o
+
+# target to build an object file
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.o
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.o
+
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.i: BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.i
+
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.i
+
+# target to preprocess a source file
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.i
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.i
+
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.s: BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.s
+
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.s
+
+# target to generate assembly for a file
+BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.s
+.PHONY : BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.cpp.s
+
+BlockCrash_GUI_autogen/mocs_compilation.o: BlockCrash_GUI_autogen/mocs_compilation.cpp.o
+
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.o
+
+# target to build an object file
+BlockCrash_GUI_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/mocs_compilation.cpp.o
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.cpp.o
+
+BlockCrash_GUI_autogen/mocs_compilation.i: BlockCrash_GUI_autogen/mocs_compilation.cpp.i
+
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+BlockCrash_GUI_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/mocs_compilation.cpp.i
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.cpp.i
+
+BlockCrash_GUI_autogen/mocs_compilation.s: BlockCrash_GUI_autogen/mocs_compilation.cpp.s
+
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+BlockCrash_GUI_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockCrash_GUI_autogen/mocs_compilation.cpp.s
+.PHONY : BlockCrash_GUI_autogen/mocs_compilation.cpp.s
+
+BlockCrash_autogen/mocs_compilation.o: BlockCrash_autogen/mocs_compilation.cpp.o
+
+.PHONY : BlockCrash_autogen/mocs_compilation.o
+
+# target to build an object file
+BlockCrash_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.o
+.PHONY : BlockCrash_autogen/mocs_compilation.cpp.o
+
+BlockCrash_autogen/mocs_compilation.i: BlockCrash_autogen/mocs_compilation.cpp.i
+
+.PHONY : BlockCrash_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+BlockCrash_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.i
+.PHONY : BlockCrash_autogen/mocs_compilation.cpp.i
+
+BlockCrash_autogen/mocs_compilation.s: BlockCrash_autogen/mocs_compilation.cpp.s
+
+.PHONY : BlockCrash_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+BlockCrash_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockCrash_autogen/mocs_compilation.cpp.s
+.PHONY : BlockCrash_autogen/mocs_compilation.cpp.s
+
+BlockCrash_autotest_autogen/mocs_compilation.o: BlockCrash_autotest_autogen/mocs_compilation.cpp.o
+
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.o
+
+# target to build an object file
+BlockCrash_autotest_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockCrash_autotest_autogen/mocs_compilation.cpp.o
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.cpp.o
+
+BlockCrash_autotest_autogen/mocs_compilation.i: BlockCrash_autotest_autogen/mocs_compilation.cpp.i
+
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+BlockCrash_autotest_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockCrash_autotest_autogen/mocs_compilation.cpp.i
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.cpp.i
+
+BlockCrash_autotest_autogen/mocs_compilation.s: BlockCrash_autotest_autogen/mocs_compilation.cpp.s
+
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+BlockCrash_autotest_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockCrash_autotest_autogen/mocs_compilation.cpp.s
+.PHONY : BlockCrash_autotest_autogen/mocs_compilation.cpp.s
+
 BlockGenerate.o: BlockGenerate.cpp.o
 
 .PHONY : BlockGenerate.o
 
 # target to build an object file
 BlockGenerate.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockGenerate.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.o
 .PHONY : BlockGenerate.cpp.o
@@ -152,6 +313,7 @@ BlockGenerate.i: BlockGenerate.cpp.i
 
 # target to preprocess a source file
 BlockGenerate.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockGenerate.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.i
 .PHONY : BlockGenerate.cpp.i
@@ -162,6 +324,7 @@ BlockGenerate.s: BlockGenerate.cpp.s
 
 # target to generate assembly for a file
 BlockGenerate.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/BlockGenerate.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/BlockGenerate.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/BlockGenerate.cpp.s
 .PHONY : BlockGenerate.cpp.s
@@ -172,6 +335,7 @@ Board.o: Board.cpp.o
 
 # target to build an object file
 Board.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/Board.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.o
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.o
 .PHONY : Board.cpp.o
@@ -182,6 +346,7 @@ Board.i: Board.cpp.i
 
 # target to preprocess a source file
 Board.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/Board.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.i
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.i
 .PHONY : Board.cpp.i
@@ -192,6 +357,7 @@ Board.s: Board.cpp.s
 
 # target to generate assembly for a file
 Board.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/Board.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/Board.cpp.s
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/Board.cpp.s
 .PHONY : Board.cpp.s
@@ -223,6 +389,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainGUI.o: mainGUI.cpp.o
+
+.PHONY : mainGUI.o
+
+# target to build an object file
+mainGUI.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/mainGUI.cpp.o
+.PHONY : mainGUI.cpp.o
+
+mainGUI.i: mainGUI.cpp.i
+
+.PHONY : mainGUI.i
+
+# target to preprocess a source file
+mainGUI.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/mainGUI.cpp.i
+.PHONY : mainGUI.cpp.i
+
+mainGUI.s: mainGUI.cpp.s
+
+.PHONY : mainGUI.s
+
+# target to generate assembly for a file
+mainGUI.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/mainGUI.cpp.s
+.PHONY : mainGUI.cpp.s
+
 maintest.o: maintest.cpp.o
 
 .PHONY : maintest.o
@@ -250,6 +443,33 @@ maintest.cpp.s:
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/maintest.cpp.s
 .PHONY : maintest.cpp.s
 
+widget.o: widget.cpp.o
+
+.PHONY : widget.o
+
+# target to build an object file
+widget.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/widget.cpp.o
+.PHONY : widget.cpp.o
+
+widget.i: widget.cpp.i
+
+.PHONY : widget.i
+
+# target to preprocess a source file
+widget.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/widget.cpp.i
+.PHONY : widget.cpp.i
+
+widget.s: widget.cpp.s
+
+.PHONY : widget.s
+
+# target to generate assembly for a file
+widget.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/widget.cpp.s
+.PHONY : widget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,8 +478,24 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... BlockCrash_GUI"
 	@echo "... BlockCrash_autotest"
 	@echo "... BlockCrash"
+	@echo "... BlockCrash_GUI_autogen"
+	@echo "... BlockCrash_autotest_autogen"
+	@echo "... BlockCrash_autogen"
+	@echo "... BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.o"
+	@echo "... BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.i"
+	@echo "... BlockCrash_GUI_autogen/EWIEGA46WW/qrc_res.s"
+	@echo "... BlockCrash_GUI_autogen/mocs_compilation.o"
+	@echo "... BlockCrash_GUI_autogen/mocs_compilation.i"
+	@echo "... BlockCrash_GUI_autogen/mocs_compilation.s"
+	@echo "... BlockCrash_autogen/mocs_compilation.o"
+	@echo "... BlockCrash_autogen/mocs_compilation.i"
+	@echo "... BlockCrash_autogen/mocs_compilation.s"
+	@echo "... BlockCrash_autotest_autogen/mocs_compilation.o"
+	@echo "... BlockCrash_autotest_autogen/mocs_compilation.i"
+	@echo "... BlockCrash_autotest_autogen/mocs_compilation.s"
 	@echo "... BlockGenerate.o"
 	@echo "... BlockGenerate.i"
 	@echo "... BlockGenerate.s"
@@ -269,9 +505,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainGUI.o"
+	@echo "... mainGUI.i"
+	@echo "... mainGUI.s"
 	@echo "... maintest.o"
 	@echo "... maintest.i"
 	@echo "... maintest.s"
+	@echo "... widget.o"
+	@echo "... widget.i"
+	@echo "... widget.s"
 .PHONY : help
 
 

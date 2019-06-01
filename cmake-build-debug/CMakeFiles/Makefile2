@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /Users/birdy/CLionProjects/BlockCrash
 CMAKE_BINARY_DIR = /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/BlockCrash_GUI.dir
+
+# All Build rule for target.
+CMakeFiles/BlockCrash_GUI.dir/all: CMakeFiles/BlockCrash_GUI_autogen.dir/all
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/depend
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10,11,12,13 "Built target BlockCrash_GUI"
+.PHONY : CMakeFiles/BlockCrash_GUI.dir/all
+
+# Include target in all.
+all: CMakeFiles/BlockCrash_GUI.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BlockCrash_GUI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash_GUI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BlockCrash_GUI.dir/rule
+
+# Convenience name for target.
+BlockCrash_GUI: CMakeFiles/BlockCrash_GUI.dir/rule
+
+.PHONY : BlockCrash_GUI
+
+# clean rule for target.
+CMakeFiles/BlockCrash_GUI.dir/clean:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI.dir/build.make CMakeFiles/BlockCrash_GUI.dir/clean
+.PHONY : CMakeFiles/BlockCrash_GUI.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BlockCrash_GUI.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/BlockCrash_autotest.dir
 
 # All Build rule for target.
-CMakeFiles/BlockCrash_autotest.dir/all:
+CMakeFiles/BlockCrash_autotest.dir/all: CMakeFiles/BlockCrash_autotest_autogen.dir/all
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/depend
 	$(MAKE) -f CMakeFiles/BlockCrash_autotest.dir/build.make CMakeFiles/BlockCrash_autotest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8 "Built target BlockCrash_autotest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20 "Built target BlockCrash_autotest"
 .PHONY : CMakeFiles/BlockCrash_autotest.dir/all
 
 # Include target in all.
@@ -81,7 +118,7 @@ all: CMakeFiles/BlockCrash_autotest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BlockCrash_autotest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash_autotest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BlockCrash_autotest.dir/rule
@@ -105,10 +142,10 @@ clean: CMakeFiles/BlockCrash_autotest.dir/clean
 # Target rules for target CMakeFiles/BlockCrash.dir
 
 # All Build rule for target.
-CMakeFiles/BlockCrash.dir/all:
+CMakeFiles/BlockCrash.dir/all: CMakeFiles/BlockCrash_autogen.dir/all
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/depend
 	$(MAKE) -f CMakeFiles/BlockCrash.dir/build.make CMakeFiles/BlockCrash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target BlockCrash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target BlockCrash"
 .PHONY : CMakeFiles/BlockCrash.dir/all
 
 # Include target in all.
@@ -118,7 +155,7 @@ all: CMakeFiles/BlockCrash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BlockCrash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BlockCrash.dir/rule
@@ -135,6 +172,102 @@ CMakeFiles/BlockCrash.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/BlockCrash.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BlockCrash_GUI_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/BlockCrash_GUI_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI_autogen.dir/build.make CMakeFiles/BlockCrash_GUI_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI_autogen.dir/build.make CMakeFiles/BlockCrash_GUI_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=14 "Built target BlockCrash_GUI_autogen"
+.PHONY : CMakeFiles/BlockCrash_GUI_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BlockCrash_GUI_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash_GUI_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BlockCrash_GUI_autogen.dir/rule
+
+# Convenience name for target.
+BlockCrash_GUI_autogen: CMakeFiles/BlockCrash_GUI_autogen.dir/rule
+
+.PHONY : BlockCrash_GUI_autogen
+
+# clean rule for target.
+CMakeFiles/BlockCrash_GUI_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/BlockCrash_GUI_autogen.dir/build.make CMakeFiles/BlockCrash_GUI_autogen.dir/clean
+.PHONY : CMakeFiles/BlockCrash_GUI_autogen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BlockCrash_GUI_autogen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BlockCrash_autotest_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/BlockCrash_autotest_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest_autogen.dir/build.make CMakeFiles/BlockCrash_autotest_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest_autogen.dir/build.make CMakeFiles/BlockCrash_autotest_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=21 "Built target BlockCrash_autotest_autogen"
+.PHONY : CMakeFiles/BlockCrash_autotest_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BlockCrash_autotest_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash_autotest_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BlockCrash_autotest_autogen.dir/rule
+
+# Convenience name for target.
+BlockCrash_autotest_autogen: CMakeFiles/BlockCrash_autotest_autogen.dir/rule
+
+.PHONY : BlockCrash_autotest_autogen
+
+# clean rule for target.
+CMakeFiles/BlockCrash_autotest_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/BlockCrash_autotest_autogen.dir/build.make CMakeFiles/BlockCrash_autotest_autogen.dir/clean
+.PHONY : CMakeFiles/BlockCrash_autotest_autogen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BlockCrash_autotest_autogen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BlockCrash_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/BlockCrash_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/BlockCrash_autogen.dir/build.make CMakeFiles/BlockCrash_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/BlockCrash_autogen.dir/build.make CMakeFiles/BlockCrash_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles --progress-num=15 "Built target BlockCrash_autogen"
+.PHONY : CMakeFiles/BlockCrash_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BlockCrash_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BlockCrash_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/birdy/CLionProjects/BlockCrash/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BlockCrash_autogen.dir/rule
+
+# Convenience name for target.
+BlockCrash_autogen: CMakeFiles/BlockCrash_autogen.dir/rule
+
+.PHONY : BlockCrash_autogen
+
+# clean rule for target.
+CMakeFiles/BlockCrash_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/BlockCrash_autogen.dir/build.make CMakeFiles/BlockCrash_autogen.dir/clean
+.PHONY : CMakeFiles/BlockCrash_autogen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BlockCrash_autogen.dir/clean
 
 .PHONY : clean
 
